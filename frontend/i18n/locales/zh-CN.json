@@ -1,160 +1,155 @@
 {
-  "app": {
-    "title": "EMAIL-24小时匿名邮箱"
-  },
-  "common": {
-    "loading": "加载中...",
-    "error": "出错了",
-    "copy": "复制",
-    "copied": "已复制",
-    "delete": "删除",
-    "refresh": "刷新",
-    "create": "创建",
-    "cancel": "取消",
-    "confirm": "确认",
-    "submit": "提交",
-    "save": "保存",
-    "close": "关闭",
-    "back": "返回",
-    "success": "成功",
-    "failed": "失败",
-    "unknown": "未知",
-    "empty": "暂无数据",
-  },
-  "mailbox": {
-    "createRandom": "创建随机邮箱",
-    "createCustom": "创建自定义邮箱",
-    "address": "邮箱地址",
-    "customAddress": "自定义地址",
-    "customAddressPlaceholder": "输入自定义地址",
-    "expiresIn": "有效期",
-    "expiresAt": "过期时间",
-    "created": "创建时间",
-    "timeLeft": "剩余时间",
-    "expired": "已过期",
-    "expiresInTime": "{{hours}}小时{{minutes}}分钟",
-    "expiresInMinutes": "{{minutes}}分钟",
-    "copySuccess": "邮箱地址已复制到剪贴板",
-    "copyFailed": "复制邮箱地址失败",
-    "createSuccess": "邮箱创建成功",
-    "createFailed": "邮箱创建失败",
-    "deleteSuccess": "邮箱删除成功",
-    "deleteFailed": "邮箱删除失败",
-    "delete": "删除邮箱",
-    "confirmDelete": "确定要删除当前邮箱吗？删除后将立即创建新的匿名邮箱。",
-    "invalidAddress": "无效的邮箱地址",
-    "addressExists": "邮箱地址已存在",
-    "refresh": "更换邮箱",
-    "refreshSuccess": "邮箱更换成功",
-    "refreshFailed": "邮箱更换失败",
-    "customize": "自定义邮箱",
-    "notFound": "邮箱不存在或已过期",
-    "creatingNew": "正在创建新邮箱...",
-    "switch": "切换邮箱",
-    "savedMailboxes": "已保存的邮箱"
-  },
-  "email": {
-    "inbox": "收件箱",
-    "refresh": "刷新邮件",
-    "autoRefresh": "自动刷新",
-    "autoRefreshOn": "自动刷新: 开",
-    "autoRefreshOff": "自动刷新: 关",
-    "from": "发件人",
-    "to": "收件人",
-    "subject": "主题",
-    "date": "日期",
-    "content": "内容",
-    "attachments": "附件",
-    "attachmentsNotSupported": "附件暂不支持下载",
-    "noAttachments": "没有附件",
-    "download": "下载",
-    "videoNotSupported": "您的浏览器不支持视频播放",
-    "audioNotSupported": "您的浏览器不支持音频播放",
-    "noSubject": "无主题",
-    "noContent": "无内容",
-    "emptyInbox": "邮箱为空",
-    "waitingForEmails": "等待接收邮件...",
-    "refreshing": "正在刷新...",
-    "deleteSuccess": "邮件删除成功",
-    "deleteFailed": "邮件删除失败",
-    "fetchFailed": "获取邮件失败",
-    "notFound": "邮件不存在或已被删除",
-    "selectEmailPrompt": "请选择一封邮件查看详情",
-    "message": "封邮件",
-    "messages": "封邮件"
-  },
-  "settings": {
-    "language": "语言"
-  },
-  "errors": {
-    "generic": "发生错误，请稍后重试",
-    "notFound": "未找到请求的资源"
-  },
-  "intro": {
-    "features": {
-      "title": "核心功能",
-      "privacy": {
-        "title": "隐私保护",
-        "description": "无需注册，不收集个人信息，完全匿名使用"
-      },
-      "temporary": {
-        "title": "临时邮箱",
-        "description": "24小时有效期，自动过期删除，避免垃圾邮件困扰"
-      },
-      "anonymous": {
-        "title": "匿名接收",
-        "description": "保护真实邮箱地址，防止信息泄露和骚扰"
-      },
-      "instant": {
-        "title": "即时创建",
-        "description": "一键生成临时邮箱，立即可用，操作简单便捷"
-      }
-    },
-    "useCases": {
-      "title": "使用场景",
-      "verification": {
-        "title": "一次性验证",
-        "description": "接收验证码、确认邮件等临时验证需求"
-      },
-      "downloads": {
-        "title": "软件下载",
-        "description": "下载软件、获取资源时避免营销邮件"
-      },
-      "testing": {
-        "title": "测试验证",
-        "description": "开发测试、邮件验证功能时的理想工具"
-      }
-    },
-    "security": {
-      "title": "安全提示",
-      "warning1": "请勿用于接收重要或敏感信息，临时邮箱不保证数据安全性",
-      "warning2": "邮箱内容可能被他人访问，请避免包含个人隐私信息",
-      "warning3": "邮箱将在24小时后自动删除，请及时保存重要内容"
-    },
-    "faq": {
-      "title": "常见问题",
-      "q1": {
-        "question": "邮箱有效期是多久？",
-        "answer": "所有邮箱的有效期为24小时，过期后会自动删除。"
-      },
-      "q2": {
-        "question": "可以发送邮件吗？",
-        "answer": "本服务仅支持接收邮件，不支持发送邮件功能。"
-      },
-      "q3": {
-        "question": "邮件内容安全吗？",
-        "answer": "所有邮件内容仅在有效期内存储，过期后会自动删除，请及时查看重要信息。"
-      }
-    }
-  },
-    "conclusion": "感谢您使用email临时邮箱服务！"
-  },
-      "email": {
-        "title": "邮箱"
-      }
-    },
-    "conclusion": "感谢您选择email临时邮箱服务！"
-    },
-    "conclusion": "感谢您信任并使用email临时邮箱服务！"
-  }
-}
+  "app": {
+    "title": "ZMAIL-24小时匿名邮箱"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "copy": "复制",
+    "copied": "已复制",
+    "delete": "删除",
+    "refresh": "刷新",
+    "create": "创建",
+    "cancel": "取消",
+    "confirm": "确认",
+    "submit": "提交",
+    "save": "保存",
+    "close": "关闭",
+    "back": "返回",
+    "success": "成功",
+    "failed": "失败",
+    "unknown": "未知",
+    "empty": "暂无数据",
+    "blog": "博客",
+    "youtube": "油管频道",
+    "xugouMonitor": "xugou监控",
+    "privacyPolicy": "隐私政策",
+    "terms": "使用条款",
+    "about": "关于我们"
+  },
+  "mailbox": {
+    "createRandom": "创建随机邮箱",
+    "createCustom": "创建自定义邮箱",
+    "address": "邮箱地址",
+    "customAddress": "自定义地址",
+    "customAddressPlaceholder": "输入自定义地址",
+    "expiresIn": "有效期",
+    "expiresAt": "过期时间",
+    "created": "创建时间",
+    "timeLeft": "剩余时间",
+    "expired": "已过期",
+    "expiresInTime": "{{hours}}小时{{minutes}}分钟",
+    "expiresInMinutes": "{{minutes}}分钟",
+    "copySuccess": "邮箱地址已复制到剪贴板",
+    "copyFailed": "复制邮箱地址失败",
+    "createSuccess": "邮箱创建成功",
+    "createFailed": "邮箱创建失败",
+    "deleteSuccess": "邮箱删除成功",
+    "deleteFailed": "邮箱删除失败",
+    "delete": "删除邮箱",
+    "confirmDelete": "确定要删除当前邮箱吗？删除后将立即创建新的匿名邮箱。",
+    "invalidAddress": "无效的邮箱地址",
+    "addressExists": "邮箱地址已存在",
+    "refresh": "更换邮箱",
+    "refreshSuccess": "邮箱更换成功",
+    "refreshFailed": "邮箱更换失败",
+    "customize": "自定义邮箱",
+    "notFound": "邮箱不存在或已过期",
+    "creatingNew": "正在创建新邮箱...",
+    "switch": "切换邮箱",
+    "savedMailboxes": "已保存的邮箱"
+  },
+  "email": {
+    "inbox": "收件箱",
+    "refresh": "刷新邮件",
+    "autoRefresh": "自动刷新",
+    "autoRefreshOn": "自动刷新: 开",
+    "autoRefreshOff": "自动刷新: 关",
+    "from": "发件人",
+    "to": "收件人",
+    "subject": "主题",
+    "date": "日期",
+    "content": "内容",
+    "attachments": "附件",
+    "attachmentsNotSupported": "附件暂不支持下载",
+    "noAttachments": "没有附件",
+    "download": "下载",
+    "videoNotSupported": "您的浏览器不支持视频播放",
+    "audioNotSupported": "您的浏览器不支持音频播放",
+    "noSubject": "无主题",
+    "noContent": "无内容",
+    "emptyInbox": "邮箱为空",
+    "waitingForEmails": "等待接收邮件...",
+    "refreshing": "正在刷新...",
+    "deleteSuccess": "邮件删除成功",
+    "deleteFailed": "邮件删除失败",
+    "fetchFailed": "获取邮件失败",
+    "notFound": "邮件不存在或已被删除",
+    "selectEmailPrompt": "请选择一封邮件查看详情",
+    "message": "封邮件",
+    "messages": "封邮件"
+  },
+  "settings": {
+    "language": "语言"
+  },
+  "errors": {
+    "generic": "发生错误，请稍后重试",
+    "notFound": "未找到请求的资源"
+  },
+  "intro": {
+    "features": {
+      "title": "核心功能",
+      "privacy": {
+        "title": "隐私保护",
+        "description": "无需注册，不收集个人信息，完全匿名使用"
+      },
+      "temporary": {
+        "title": "临时邮箱",
+        "description": "24小时有效期，自动过期删除，避免垃圾邮件困扰"
+      },
+      "anonymous": {
+        "title": "匿名接收",
+        "description": "保护真实邮箱地址，防止信息泄露和骚扰"
+      },
+      "instant": {
+        "title": "即时创建",
+        "description": "一键生成临时邮箱，立即可用，操作简单便捷"
+      }
+    },
+    "useCases": {
+      "title": "使用场景",
+      "verification": {
+        "title": "一次性验证",
+        "description": "接收验证码、确认邮件等临时验证需求"
+      },
+      "downloads": {
+        "title": "软件下载",
+        "description": "下载软件、获取资源时避免营销邮件"
+      },
+      "testing": {
+        "title": "测试验证",
+        "description": "开发测试、邮件验证功能时的理想工具"
+      }
+    },
+    "security": {
+      "title": "安全提示",
+      "warning1": "请勿用于接收重要或敏感信息，临时邮箱不保证数据安全性",
+      "warning2": "邮箱内容可能被他人访问，请避免包含个人隐私信息",
+      "warning3": "邮箱将在24小时后自动删除，请及时保存重要内容"
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": {
+        "question": "邮箱有效期是多久？",
+        "answer": "所有邮箱的有效期为24小时，过期后会自动删除。"
+      },
+      "q2": {
+        "question": "可以发送邮件吗？",
+        "answer": "本服务仅支持接收邮件，不支持发送邮件功能。"
+      },
+      "q3": {
+        "question": "邮件内容安全吗？",
+        "answer": "所有邮件内容仅在有效期内存储，过期后会自动删除，请及时查看重要信息。"
+      }
+    }
+  },
